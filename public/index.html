@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Google Developer Kejar</title>
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menujudul">
+                <img class="menulogo" src="v.png" alt="Billy Aristio">
+            </div>
+        </div>
+        
+        <div class="head">
+            <div class="headerin">
+                <h1 class="headerjudul">
+                    Google Developer Kejar
+                </h1>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <div class="profil_icon">
+                <img class="profil_icon_img" src="human.png" alt="BA">
+            </div>
+            <div class="profil_isi">
+                <span>
+                    Vipy
+                </span>
+            </div>
+        </div>
+
+        <div class="konten">
+            <div class="subkonten">
+                <a href="/devtool"> 
+                <img class="subkontenimg" src="calc.png" alt="BA">
+                    Menghitung 2 Angka
+                </a>
+            </div>
+            <div class="subkonten">
+                <a href="/peta"> 
+                <img class="subkontenimg" src="map.png" alt="BA">
+                    Peta Kuliner
+                </a>
+            </div>
+            <div class="subkonten">
+                <a href="#"> 
+                <img class="subkontenimg" src="human.png" alt="BA">
+                    Profil Saya
+                </a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <span class="footer_cont">
+                &copy; 2018 • Vipy
+            </span>
+        </div>
+    </div>
+
+    <script>
+		if('serviceWorker' in navigator) {
+			window.addEventListener('load', function(){
+				navigator.serviceWorker.register('sw.js')
+				.then(reg=> console.log('Service Worker registered', reg))
+				.catch(err=> console.log('Service worker failed to registered', err));
+			});
+		}
+	</script>
+</body>
+</html>

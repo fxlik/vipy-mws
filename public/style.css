@@ -1,0 +1,142 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+    font-family: Roboto;
+    font-size : 12px;
+    font-size: 12px;
+    color: #424242;
+    background : linear-gradient(to right, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
+  }
+  
+  div {
+    box-sizing: border-box;
+  }
+  
+  .container {
+      display : grid;
+      grid-template-columns: repeat(4,1fr);
+      /*grid-gap : 4px;*/
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  }
+  
+  .menu {
+      background : #24b9ea;	
+      grid-column : 1/-1;
+      padding:0.3em;
+  }
+  
+  .menujudul{
+      text-align : center;
+      color : white;
+      font-weight: 300;
+  }
+  
+  .menulogo{
+      height: 75px;
+      vertical-align: middle;
+  }
+  
+  .head {
+      grid-column : 1/-1;
+      min-height: 100px;
+      background : #bbebff;
+      display: flex;
+      align-items: center;
+  }
+  
+  .headerin{
+      width: 100%;
+      text-align : center;
+  }
+  
+  
+  .headerjudul{
+      font-weight: 400;
+      font-size: 3em;
+      color: #0038ab;
+  }
+  
+  .sidebar {
+      background : #0038ab;
+      grid-column : 1/2;
+      min-height : 100px;
+      padding : 1em;
+      display : grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr;
+      grid-gap : 1em;
+  }
+  
+  .profil_icon{
+      grid-row:1/1;
+      text-align: center;
+      display: flex;
+      align-items: center;
+  }
+  
+  .profil_icon_img{
+      height : 90px;
+      background : white;
+      margin : 0em auto;
+      border-radius: 50%;
+  }
+  
+  .profil_isi{
+      color : white;
+      font-size: 2em;
+      grid-row:2/-1;	
+      text-align: center;
+  }
+  
+  .konten {
+      background : white;
+      grid-column : 2/-1;
+      display : grid;
+      grid-gap : 4px;
+  }
+  
+  .subkonten {
+      grid-column : 1/-1;
+      background : #24b9ea;
+      text-align : center;
+      padding:1em;
+      vertical-align: middle;
+  }
+  
+  .subkonten a {
+      text-decoration: none;
+        color: white;
+        padding: 0.5em;
+        font-weight: 500;
+        font-size : 1.2em;
+  }
+  
+  .subkonten a:hover,
+  .subkonten a:active {
+      text-decoration: underline;
+  }
+  
+  .subkontenimg{
+      height : 80px;
+      background : white;
+      margin : 0em auto 1em auto;
+      border-radius: 50%;
+      display: block;
+  }
+  
+  .footer {
+      background : #bbebff;
+      grid-column : 1/-1;
+      padding:0.5em;
+  }
+  
+  .footer_cont{
+      display : block;
+      text-align : center;
+      font-weight: 300;
+  }

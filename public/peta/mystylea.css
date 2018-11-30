@@ -1,0 +1,72 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Roboto;
+}
+
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+	margin : 0;
+	font-weight: 400;
+}
+
+#mapid {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	display: grid;
+	height: 100%;
+	grid-template-columns: repeat(8,1fr);
+	grid-template-rows : 23% 47% 30%;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);	
+}
+
+.header{
+	text-align : center;
+	color: #0038ab;
+	background : #24b9ea;	
+	padding : 1em;
+	grid-column: 1/-1;
+}
+
+.header_icon{
+	height : 80px;
+	background : white;
+	margin : 0em auto 0em auto;
+	border-radius: 50%;
+	display: block;
+}
+
+.peta {
+	grid-column: 1/-1;
+	/*min-height: 500px;*/
+}
+
+.gambar {
+	text-align : center;
+	background: #24b9ea;
+	grid-column: 1/4;
+	padding:0.5em;
+}
+
+.gambarisi {
+	max-width: 100%;
+	max-height:100%; 	
+	display : none;
+}
+
+.review {
+	font-size :12px;
+	background: #bbebff;
+	grid-column:4/-1;
+	padding:1em;
+	overflow-y: scroll;
+}

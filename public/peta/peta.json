@@ -1,0 +1,33 @@
+{
+"places":[
+	{
+		"lokasi": [-0.057477,109.3459753],
+		"sponsor": "KANTIN KAMEK FAKULTAS TEKNIK", 
+		"gambar": "imgs/0gambar.jpg", 
+		"review": "Ini kantin kamek, kantin abang-abang kamek!"
+	},
+	{
+		"lokasi": [-0.0577274,109.3460457], 
+		"sponsor": "Kantin Hijau MIPA", 
+		"gambar": "imgs/1gambar.jpg", 
+		"review": "Suasana adem banget ya, hijau asri, makanannya juga  hijau banget."
+	},
+	{
+		"lokasi": [-0.0606618,109.3424072], 
+		"sponsor": "Kantin Mangrove D'Rimbawan", 
+		"gambar": "imgs/2gambar.jpg", 
+		"review": "Pertama kali masuk kantin ini, suasana hutan khas Kalimantan langsung berasa, WOW."
+	},
+	{
+		"lokasi": [-0.0613274,109.3430719], 
+		"sponsor": "Kantin Perjalanan", 
+		"gambar": "imgs/3gambar.jpg", 
+		"review": "Aku berjalan menyusuri malam, setelah patah hatiku. Aku bedoa semoga saja ini yang terbaik untuknya Dia bilang Kau harus bisa seperti aku Yang sudah biarlah sudah."
+	},
+	{
+		"lokasi": [-0.0657853,109.3423091], 
+		"sponsor": "Kedai Lala", 
+		"gambar": "imgs/5gambar.jpg", 
+		"review": "Lala, her sister's name."
+	}
+]}

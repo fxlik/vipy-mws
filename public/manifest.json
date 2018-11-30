@@ -1,0 +1,22 @@
+{
+    "name": "Vipy PWA Apps",
+    "short_name": "Vipy",
+    "description": "Vipy PWA Apps",
+    "icons": [
+        {
+            "src": "/images/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#42b6f4",
+    "theme_color": "#42b6f4"
+
+}
